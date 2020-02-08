@@ -11,20 +11,20 @@ Ubuntu 16.04 and ROS kinetic
 
 1. Delete build folder and catkin_make
 ```
-$ cd "root folder"
+$ cd "catkin folder"
 $ catkin make
 $ source devel/setup.bash
 $ roslaunch my_robot myworld.launch
 ```
 2. Create another terminal and open the teleop node
 ```
-$ cd "root folder"
+$ cd "catkin folder"
 $ source devel/setup.bash
 $ rosrun teleop_twist_kop_twist_keyboard.py
 ```
 3. Create another terminal and open the gmap node
 ```
-$ cd "root folder"
+$ cd "catkin folder"
 $ source devel/setup.bash
 $ rosrun gmappingslam_gmapping scan:=scan _base_frame:=odom
 ```
