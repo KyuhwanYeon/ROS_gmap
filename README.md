@@ -28,6 +28,13 @@ $ cd "root folder"
 $ source devel/setup.bash
 $ rosrun gmappingslam_gmapping scan:=scan _base_frame:=odom
 ```
+4. Move the robot and mapping the world!
 
 ## Result
+
+### Step 1
+![step1](./img/step1.png)
+
+### Step 2
+![step2](./img/step2.png)
 
