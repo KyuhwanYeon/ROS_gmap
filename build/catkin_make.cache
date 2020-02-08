@@ -1,0 +1,2 @@
+ball_chaser:my_robot:slam_gmapping/gmapping:slam_gmapping/slam_gmapping:teleop_twist_keyboard
+-DCATKIN_DEVEL_PREFIX=/home/khyeon/workspace/013_FastSLAM/devel -DCMAKE_INSTALL_PREFIX=/home/khyeon/workspace/013_FastSLAM/install -G Unix Makefiles
