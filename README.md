@@ -29,3 +29,5 @@ $ source devel/setup.bash
 $ rosrun gmappingslam_gmapping scan:=scan _base_frame:=odom
 ```
 
+## Result
+
